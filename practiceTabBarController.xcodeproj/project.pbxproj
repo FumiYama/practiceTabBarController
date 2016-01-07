@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		329AE4EC1C3E85D300A11EBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329AE4EB1C3E85D300A11EBF /* AppDelegate.swift */; };
 		329AE4EE1C3E85D300A11EBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329AE4ED1C3E85D300A11EBF /* ViewController.swift */; };
-		329AE4F11C3E85D300A11EBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329AE4EF1C3E85D300A11EBF /* Main.storyboard */; };
 		329AE4F31C3E85D300A11EBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329AE4F21C3E85D300A11EBF /* Assets.xcassets */; };
 		329AE4F61C3E85D300A11EBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329AE4F41C3E85D300A11EBF /* LaunchScreen.storyboard */; };
 		329AE5011C3E85D300A11EBF /* practiceTabBarControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329AE5001C3E85D300A11EBF /* practiceTabBarControllerTests.swift */; };
 		329AE50C1C3E85D300A11EBF /* practiceTabBarControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329AE50B1C3E85D300A11EBF /* practiceTabBarControllerUITests.swift */; };
+		329AE51A1C3E865200A11EBF /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329AE5191C3E865200A11EBF /* MainTabBarController.swift */; };
+		329AE51C1C3E866C00A11EBF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329AE51B1C3E866C00A11EBF /* FirstViewController.swift */; };
+		329AE51E1C3E867D00A11EBF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329AE51D1C3E867D00A11EBF /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,6 @@
 		329AE4E81C3E85D300A11EBF /* practiceTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practiceTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		329AE4EB1C3E85D300A11EBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		329AE4ED1C3E85D300A11EBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		329AE4F01C3E85D300A11EBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		329AE4F21C3E85D300A11EBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		329AE4F51C3E85D300A11EBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		329AE4F71C3E85D300A11EBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		329AE5071C3E85D300A11EBF /* practiceTabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practiceTabBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		329AE50B1C3E85D300A11EBF /* practiceTabBarControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practiceTabBarControllerUITests.swift; sourceTree = "<group>"; };
 		329AE50D1C3E85D300A11EBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		329AE5191C3E865200A11EBF /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		329AE51B1C3E866C00A11EBF /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		329AE51D1C3E867D00A11EBF /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,9 @@
 		329AE4DF1C3E85D300A11EBF = {
 			isa = PBXGroup;
 			children = (
+				329AE5191C3E865200A11EBF /* MainTabBarController.swift */,
+				329AE51B1C3E866C00A11EBF /* FirstViewController.swift */,
+				329AE51D1C3E867D00A11EBF /* SecondViewController.swift */,
 				329AE4EA1C3E85D300A11EBF /* practiceTabBarController */,
 				329AE4FF1C3E85D300A11EBF /* practiceTabBarControllerTests */,
 				329AE50A1C3E85D300A11EBF /* practiceTabBarControllerUITests */,
@@ -99,7 +106,6 @@
 			children = (
 				329AE4EB1C3E85D300A11EBF /* AppDelegate.swift */,
 				329AE4ED1C3E85D300A11EBF /* ViewController.swift */,
-				329AE4EF1C3E85D300A11EBF /* Main.storyboard */,
 				329AE4F21C3E85D300A11EBF /* Assets.xcassets */,
 				329AE4F41C3E85D300A11EBF /* LaunchScreen.storyboard */,
 				329AE4F71C3E85D300A11EBF /* Info.plist */,
@@ -231,7 +237,6 @@
 			files = (
 				329AE4F61C3E85D300A11EBF /* LaunchScreen.storyboard in Resources */,
 				329AE4F31C3E85D300A11EBF /* Assets.xcassets in Resources */,
-				329AE4F11C3E85D300A11EBF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +263,9 @@
 			files = (
 				329AE4EE1C3E85D300A11EBF /* ViewController.swift in Sources */,
 				329AE4EC1C3E85D300A11EBF /* AppDelegate.swift in Sources */,
+				329AE51A1C3E865200A11EBF /* MainTabBarController.swift in Sources */,
+				329AE51E1C3E867D00A11EBF /* SecondViewController.swift in Sources */,
+				329AE51C1C3E866C00A11EBF /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +301,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		329AE4EF1C3E85D300A11EBF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				329AE4F01C3E85D300A11EBF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		329AE4F41C3E85D300A11EBF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
